@@ -47,3 +47,59 @@
   color:black;
   margin-left:10px;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin:20px auto;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+input{
+  height: 15px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+select{
+  height: 40px;
+    width: 200px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+  height: 40px;
+  width: 100px;
+}
+#btnFetch{
+  height: 40px;
+  width: 100px;
+}
+#reducerOuter{
+  height: 800px;
+  width: 50%;
+  margin: auto;
+  /* background-color: #61dafb; */
+}
+.labelBox{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  background: white;
+  border: 1px solid #b7aeae;
+  justify-content: center;
+  align-items: center;
+}
+.inpReducer{
+  height: 15px;
+    width: 50%;
+    margin-left: 50px;
+}
+.inpCheck{
+  width: 10%;
+}
