@@ -5,9 +5,10 @@ const Task2Component2 = (props) => {
   return (
     <div>
       <br />
+      {props.inpval1}<br/>
       <input type="text" onChange={props.inputChanger} />
       <br></br>
-      {props.inpval1}
+      
     </div>
   );
 };

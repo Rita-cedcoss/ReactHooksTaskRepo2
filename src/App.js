@@ -4,8 +4,11 @@ import Task1useMemo from './ReactHooksTask/Task1useMemo';
 import Task2useCallback from './ReactHooksTask/Task2useCallback';
 import CustomHooks from './ReactHooksTask/CustomHooks';
 import Task4useReducer from './ReactHooksTask/Task4useReducer';
+import Modal from './ReactHooksTask/Modal';
+import { useState } from 'react';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
     <div className='App'>
